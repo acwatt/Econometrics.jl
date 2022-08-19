@@ -35,7 +35,7 @@ Statistical models use a formula with formulae syntax to specify the relation am
 modelformula = @formula(response ~ exogenous + (endogenous ~ instruments) + absorb(high_dimensional_controls))
 ```
 
-where the right-hand side is the response and the left-hand side has
+where the left-hand side is the response and the right-hand side has
 
 - exogenous variables
 - potentially endogenous features and additional instruments
